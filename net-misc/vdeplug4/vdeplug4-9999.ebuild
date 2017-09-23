@@ -24,12 +24,11 @@ HOMEPAGE="https://github.com/rd235/vdeplug4"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
 
-COMMON_DEPS="(
+COMMON_DEPS="
 	>=dev-util/s2argv-execs-0.9
-	)"
+	"
 DEPEND="${COMMON_DEPS}"
 
 src_prepare() {
