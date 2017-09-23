@@ -14,7 +14,6 @@ else
         SRC_URI="https://github.com/rd235/s2argv-execs/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 fi
 
-
 DESCRIPTION="Converts a command string into an argv array for execv*, execs is like execv taking a string instead of an argv"
 HOMEPAGE="https://github.com/rd235/s2argv-execs"
 
