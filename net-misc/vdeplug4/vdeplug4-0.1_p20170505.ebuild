@@ -41,10 +41,6 @@ src_configure() {
 		$(use_enable static-libs static)
 }
 
-src_compile() {
-	emake -j1
-}
-
 src_install() {
 	default
 	find "${D}" -name '*.la' -delete || die
