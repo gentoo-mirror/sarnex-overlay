@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
+
 inherit autotools
 
 DESCRIPTION="Converts a command string into an argv array for execv*, execs is like execv taking a string instead of an argv"
@@ -24,5 +25,5 @@ src_configure() {
 }
 
 src_compile() {
-	emake -j1
+	emake -j2
 }
