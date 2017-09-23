@@ -34,5 +34,5 @@ src_configure() {
 }
 
 src_compile() {
-	emake -j2
+	emake -j1
 }
