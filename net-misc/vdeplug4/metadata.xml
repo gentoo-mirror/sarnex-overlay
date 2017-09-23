@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                                                                                                       
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">                                                                                                                                                                                       
+<pkgmetadata>                                                                                                                                                                                                                                                
+	<maintainer type="person">                                                                                                                                                                                                                           
+		<email>commendsarnex@gmail.com</email>                                                                                                                                                                                                       
+		<name>Nick Sarnie</name>                                                                                                                                                                                                                     
+		<description>Primary maintainer</description>                                                                                                                                                                                                
+	</maintainer>                                                                                                                                                                                                                                        
+	<maintainer type="person">                                                                                                                                                                                                                           
+		<email>NP-Hardass@gentoo.org</email>                                                                                                                                                                                                         
+		<name>NP-Hardass</name>                                                                                                                                                                                                                      
+	</maintainer>
+	<longdescription>
+	VDE: Virtual Distributed Ethernet. Plug your VM directly to the cloud.
+	Vdeplug4 is a new perpective on virtual networking.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">rd235/vdeplug4</remote-id>
+	</upstream>
+</pkgmetadata>
