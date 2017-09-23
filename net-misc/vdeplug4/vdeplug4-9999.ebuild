@@ -9,9 +9,13 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/rd235/vdeplug4.git"
 	EGIT_BRANCH="master"
-else
+elif [[ ${PV} =~ .*_p.* ]] ; then
 	SNAPSHOT_COMMIT="50572c8acfe9239fcbb0b92ff409d172b180d95a"
 	SRC_URI="https://github.com/rd235/vdeplug4/archive/${SNAPSHOT_COMMIT}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${PN}-${SNAPSHOT_COMMIT}"
+else
+	SRC_URI="https://github.com/rd235/vdeplug4/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
