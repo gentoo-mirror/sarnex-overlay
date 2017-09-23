@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>commendsarnex@gmail.com</email>
+		<name>Nick Sarnie</name>
+		<description>Primary maintainer</description>
+	</maintainer>
+	<longdescription>
+		s2argv converts a command string into an argv array for execv, execvp, execvpe. execs is like execv taking a string instead of an argv. Similarly 
+		execsp and execspe are the counterpart of execvp and execvpe, respectively, using command strings.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">rd235/s2argv-execs</remote-id>
+	</upstream>
+</pkgmetadata>
