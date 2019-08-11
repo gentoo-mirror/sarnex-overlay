@@ -1,0 +1,2 @@
+dev-util/s2argv-execs 0.9 9999: Converts a command string into an argv array for execv*
+net-misc/vdeplug4 0.1 0.1_p20170505 9999: VDE: Virtual Distributed Ethernet. Plug your VM directly to the cloud
